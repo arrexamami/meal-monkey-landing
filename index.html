@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Monkey</title>
+    <meta
+      name="description"
+      content="Meal Monkey landing page for fast delivery, pickup, and delicious food."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <nav class="navbar container">
+          <div class="brand" aria-label="Meal Monkey logo">
+            <span class="brand-mark"> </span>
+            <span>Meal Monkey<span class="brand-dot">.</span></span>
+          </div>
+
+          <div class="nav-links" aria-label="Main navigation">
+            <a href="#">Menu</a>
+            <a href="#">Offers</a>
+            <a href="#" class="active">Foods</a>
+            <a href="#">Services</a>
+            <a href="#">Restaurants</a>
+          </div>
+
+          <div class="user-pill" aria-label="User profile">
+            <span class="avatar-mini">F</span>
+            <span>Farzan</span>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero container">
+          <div class="hero-copy">
+            <h1>
+              Fastest <span>Delivery</span> &amp; Easy <span>Pickup</span>
+            </h1>
+
+            <div class="mini-persona">
+              <span class="mini-avatar">A</span>
+              <p>
+                When you are too lazy to cook, we are just a click away!
+              </p>
+            </div>
+
+            <div class="hero-actions">
+              <button class="btn btn-green">
+                <span class="search-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M10.7 3.4a7.3 7.3 0 1 1 0 14.6a7.3 7.3 0 0 1 0-14.6zm0 1.7a5.6 5.6 0 1 0 0 11.2a5.6 5.6 0 0 0 0-11.2zm8.6 18.5l-5.5-5.5l1.2-1.2l5.5 5.5l-1.2 1.2z"/>
+                  </svg>
+                </span>
+                Find Restaurants
+              </button>
+
+              <div class="play-group">
+                <button class="play-btn" aria-label="How to order">
+                  <span class="triangle"></span>
+                </button>
+                <span class="play-copy">How to order</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="Featured food concept illustration">
+            <div class="photo-circle large">
+              <div class="arc arc-one"></div>
+              <div class="arc arc-two"></div>
+              <div class="arc arc-three"></div>
+              <img
+                src="https://images.unsplash.com/photo-1528712306091-ed0763094c98?auto=format&fit=crop&w=900&q=80"
+                alt="Woman enjoying pastry"
+              />
+            </div>
+          </div>
+
+          <div class="hero-features" aria-label="Key features">
+            <div class="feature-item">
+              <div class="feature-icon orange-bg">
+                <svg viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M6 22.5C6 15.5 11 10 16 10s10 5.5 10 12.5v1.7c0 .9-.7 1.6-1.6 1.6H7.6A1.6 1.6 0 0 1 6 24.2v-1.7zm10-13.2c3.1 0 5.7 2.4 5.9 5.5A11 11 0 0 0 16 15c-2.7 0-5 1-6.9 2.8a6 6 0 0 1 6.9-5.5zM10 26h12" />
+                </svg>
+              </div>
+              <div>
+                <strong>Fast delivery</strong>
+                <small>Within 30 mins</small>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon green-bg">
+                <svg viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M8 18h16v8H8zm2-10h12l3 8H7zm5 4h2v8h-2zm4 0h2v8h-2zm-8 0h2v8H9zm14-9h2v3h-2zM9 6h2v3H9zm6 0h2v3h-2z"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Pick up</strong>
+                <small>At your doorstep</small>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon yellow-bg">
+                <svg viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M8 22c0-6.3 3.8-8.7 8-10.2V8h-2V6h8v2h-2v3.8c4.2 1.5 8 3.9 8 10.2v1H8v-1zm2 1h12v2H10v-2z" />
+                </svg>
+              </div>
+              <div>
+                <strong>Dine in</strong>
+                <small>Fresh &amp; crispy</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="download-strip" aria-label="Download app banner">
+          <div class="container banner-wrap">
+            <div class="phone-demo">
+              <div class="phone-shell">
+                <div class="phone-topbar">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="app-header">
+                  <span>Hey, Farzan</span>
+                  <div class="notif-dot"></div>
+                </div>
+                <div class="search-bar small">Search in your meal...</div>
+                <div class="food-row">
+                  <div class="mini-food-card burger-card">
+                    <span class="mini-burger"></span>
+                    <strong>Combo</strong>
+                    <small>350 cal</small>
+                  </div>
+                  <div class="mini-food-card taco-card">
+                    <span class="mini-taco"></span>
+                    <strong>Tacos</strong>
+                    <small>245 cal</small>
+                  </div>
+                </div>
+                <div class="large-card food-app-preview">
+                  <div class="thumb-box"></div>
+                  <div>
+                    <strong>Let's eat</strong>
+                    <small>Quality food</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="banner-copy">
+              <p class="eyebrow">Download our</p>
+              <h2>Mobile App</h2>
+              <div class="avatars-row">
+                <div class="avatar-stack">
+                  <span class="stack-1">M</span>
+                  <span class="stack-2">J</span>
+                  <span class="stack-3">A</span>
+                  <span class="stack-4">K</span>
+                </div>
+                <button class="arrow-btn" aria-label="More users">
+                  <span>→</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="store-cards">
+              <div class="store-card play-card">
+                <div class="store-logo gplay">▶</div>
+                <div>
+                  <span class="label">Google Play</span>
+                  <strong>4.5/5</strong>
+                </div>
+                <div class="stars" aria-label="rating 4.5 out of 5">★★★★★</div>
+              </div>
+
+              <div class="store-card app-card">
+                <div class="store-logo apple"></div>
+                <div>
+                  <span class="label">App Store</span>
+                  <strong>4.8/5</strong>
+                </div>
+                <div class="stars" aria-label="rating 4.8 out of 5">★★★★★</div>
+              </div>
+            </div>
+
+            <div class="floating-item floating-pizza">
+              <span>🍕</span>
+            </div>
+            <div class="floating-item floating-drink">
+              <span>🥤</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="categories container" aria-label="Best delivered categories">
+          <div class="section-head">
+            <h2>Our Best Delivered <span>Categories</span></h2>
+            <p>
+              From comforting classics to fresh bites, discover your next favorite meal.
+            </p>
+          </div>
+
+          <div class="category-grid">
+            <article class="category-card">
+              <div class="food-circle green-bg">
+                <img
+                  src="https://images.unsplash.com/photo-1604908556859-5d0f5d51197c?auto=format&fit=crop&w=700&q=80"
+                  alt="Masala Chicken"
+                />
+              </div>
+              <h3>Masala Chicken</h3>
+              <a href="#">Order Now <span>›</span></a>
+            </article>
+
+            <article class="category-card">
+              <div class="food-circle orange-bg">
+                <img
+                  src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=700&q=80"
+                  alt="Soft beverages"
+                />
+              </div>
+              <h3>Soft Beverages</h3>
+              <a href="#">Order Now <span>›</span></a>
+            </article>
+
+            <article class="category-card">
+              <div class="food-circle yellow-bg">
+                <img
+                  src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=700&q=80"
+                  alt="French Fries"
+                />
+              </div>
+              <h3>French Fries</h3>
+              <a href="#">Order Now <span>›</span></a>
+            </article>
+          </div>
+        </section>
+
+        <section class="delivery-feature">
+          <div class="container delivery-wrap">
+            <div class="delivery-copy">
+              <h2>
+                Fastest food <span>Delivery</span> in town
+              </h2>
+              <p>
+                Get your dream order fresh, steam hot at 20min break time.
+              </p>
+            </div>
+
+            <div class="delivery-visual">
+              <div class="drone-pill">
+                <span class="icon-badge">✈️</span>
+                <span>Meal Monkey box</span>
+              </div>
+
+              <div class="monkey-badge" aria-label="Meal Monkey mascot">🐵</div>
+
+              <div class="pizza-board">
+                <img
+                  src="https://images.unsplash.com/photo-1548365328-9f547fb9587c?auto=format&fit=crop&w=900&q=80"
+                  alt="Large pizza on a wooden board"
+                />
+              </div>
+            </div>
+
+            <div class="delivery-meta">
+              <div class="meta-item">
+                <div class="mini-icon white-icon">✈️</div>
+                <span>Air delivery</span>
+              </div>
+              <div class="meta-item">
+                <div class="mini-icon white-icon">⚙️</div>
+                <span>Automated</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="service-section container" aria-label="How we serve you">
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-circle orange-ring">
+                <span>📦</span>
+              </div>
+              <h3>Automated Packaging</h3>
+              <p>Made to stay fresh and safe.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-circle green-ring">
+                <span>🧺</span>
+              </div>
+              <h3>Packed with Love</h3>
+              <p>Hand-finished with a warm touch.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-circle yellow-ring">
+                <span>🍿</span>
+              </div>
+              <h3>Serve hot Appetite</h3>
+              <p>Freshly delivered at ideal temperature.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="promo-section container" aria-label="Special offers and promotions">
+          <div class="promo-card promo-main">
+            <div class="promo-text">
+              <span class="badge">Buy 2 Get 1 free</span>
+              <div class="callout">
+                <strong>$28</strong>
+              </div>
+              <p>Hot deals with loaded meals for the family.</p>
+              <span class="hotline">01845385306</span>
+            </div>
+            <div class="promo-visual">
+              <div class="burger-plate">
+                <img
+                  src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
+                  alt="Burger and fries meal"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="promo-stack">
+            <article class="promo-card dark-promo">
+              <div class="promo-mini-top">
+                <span class="mini-tag">$21</span>
+                <span class="save-tag">Save 20%</span>
+              </div>
+              <div class="sweet-visual">
+                <img
+                  src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80"
+                  alt="Waffles and ice cream"
+                />
+              </div>
+            </article>
+
+            <article class="promo-card orange-promo">
+              <div class="promo-content">
+                <span class="sign-badge">$12 off</span>
+                <h3>Tortilla wrap tacos</h3>
+                <p>Get your order fresh.</p>
+              </div>
+              <div class="salad-visual">
+                <img
+                  src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=800&q=80"
+                  alt="Tacos and salad"
+                />
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="brands-zone">
+          <div class="container brands-wrap">
+            <div class="brand-mascot" aria-label="Meal Monkey mascot">🐵</div>
+            <h2>
+              Enjoy <span>3000+</span> foods from <span>400</span> Restaurants
+            </h2>
+            <button class="btn btn-dark">
+              Order Now <span>›</span>
+            </button>
+
+            <div class="brand-cloud" aria-label="Restaurant brands">
+              <span>Pizza Hut</span>
+              <span>Domino's</span>
+              <span>Subway</span>
+              <span>KFC</span>
+              <span>Starbucks</span>
+              <span>Burger King</span>
+              <span>McDonald's</span>
+              <span>Dunkin</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="main-footer">
+        <div class="container footer-inner">
+          <div class="brand footer-brand">
+            <span class="brand-mark"> </span>
+            <span>Meal Monkey<span class="brand-dot">.</span></span>
+          </div>
+
+          <p>© 2022 Rylic Studio | All Rights Reserved</p>
+
+          <div class="socials" aria-label="Social media links">
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="Twitter">◌</a>
+            <a href="#" aria-label="Facebook">◍</a>
+            <a href="#" aria-label="YouTube">◉</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
